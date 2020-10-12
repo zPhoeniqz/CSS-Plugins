@@ -15,4 +15,4 @@ _**NOTE:** I'm from germany, so maybe my english is a bit weirdly_
 
 For each css plugin the usage is different.
 
-* (Hamburger Icon)[https://github.com/zPhoeniqz/CSS-Plugins/]
+*  (Hamburger Icon)[https://github.com/zPhoeniqz/CSS-Plugins/]
