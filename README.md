@@ -5,4 +5,14 @@ Some css plugins like loaders, navigation bars etc.
 
 _**NOTE:** I'm from germany, so maybe my english is a bit weirdly_
 
+
+
 ## What I have done yet:
+  * Hamburger icon
+  
+  
+## Usage
+
+For each css plugin the usage is different.
+
+* (Hamburger Icon)[https://github.com/zPhoeniqz/CSS-Plugins/]
