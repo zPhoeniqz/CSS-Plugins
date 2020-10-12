@@ -1,0 +1,61 @@
+/* Hamburger */
+.menu-bttn{
+    right: 0;
+    float: left;
+    right: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border: none;
+    /*display: none;*/
+}
+
+.menu-bttn:hover{ transform: rotate(180deg); }
+
+
+.menu-bttn-burger{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.menu-bttn-burger::before, .menu-bttn-burger::after{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.menu-bttn-burger::before{
+    transform: translateY(-8px);
+}
+
+.menu-bttn-burger::after{
+    transform: translateY(8px);
+}
+
+/*burger animation*/
+.menu-bttn.open .menu-bttn-burger{
+    transform: translateX(-50px);
+    background-color: transparent;
+    box-shadow: none;
+
+}
+.menu-bttn.open .menu-bttn-burger::before{
+    transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-bttn.open .menu-bttn-burger::after{
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+/*end of hamburger*/
