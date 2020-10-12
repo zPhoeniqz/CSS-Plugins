@@ -1,6 +1,7 @@
 function openDropdown(dropdownId, dropdownClass){      //dropdownId is the id of the dropdown you want to open, dropdownClass is the class of the dropdown you want to open
       const menuBttn = document.querySelector(".menu-bttn");
       const dropdown = dropdownId=="" ? dropdownClass : dropdownId;
+      let menuOpen = false;
 
       menuButtn.addEventListener("click", () => {
           if(!menuOpen){
