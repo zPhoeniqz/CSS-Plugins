@@ -1,6 +1,6 @@
 ## How to use the hamburger icon
 
-``First add the `<link>` tag to your html/php document:``
+First add the `<link>` tag to your html/php document:
 `<link rel="stylesheet" href="https://github.com/zPhoeniqz/CSS-Plugins/blob/main/Hamburger%20Menu%20Button/hamburger.css">`
 
 After that, add that html code:
