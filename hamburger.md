@@ -4,10 +4,7 @@ First add the `<link>` tag to your html/php document:
 `<link rel="stylesheet" href="https://github.com/zPhoeniqz/CSS-Plugins/blob/main/Hamburger%20Menu%20Button/hamburger.css">`
 
 After that, add that html code:
-`<div class="menu-bttn" markdown="0">
-  <div class="menu-bttn-burger">
-  </div>
-</div>`
+`<div class="menu-bttn" markdown="0"><div class="menu-bttn-burger"></div></div>`
 
 Then add the JavaScript document:
 `<script src="https://github.com/zPhoeniqz/CSS-Plugins/blob/main/Hamburger%20Menu%20Button/openDropdown.js"></script>`
