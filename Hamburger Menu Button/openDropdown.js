@@ -3,7 +3,7 @@ function openDropdown(dropdownId, dropdownClass){      //dropdownId is the id of
       const dropdown = dropdownId=="" ? dropdownClass : dropdownId;
       let menuOpen = false;
 
-      menuButtn.addEventListener("click", () => {
+      menuBttn.addEventListener("click", () => {
           if(!menuOpen){
               menuBttn.classList.add("open");
               dropdown.classList.add("visible");
